@@ -41,7 +41,7 @@ header {
   padding: 30px;
   border-radius: 20px;
   width: 400px;
-
+  height:auto;
   color: var(--gray);
   display: flex;
   flex-direction: column;
@@ -49,10 +49,6 @@ header {
   box-shadow: 2px 5px 9px rgba(0, 0, 0, 0.3);
 }
 
-.form {
-  width: 350px;
-  margin: 0 auto;
-}
 
 #input-text {
   background: transparent;
