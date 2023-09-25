@@ -41,7 +41,7 @@ header {
   padding: 30px;
   border-radius: 20px;
   width: 400px;
-  height:auto;
+  height: auto;
   color: var(--gray);
   display: flex;
   flex-direction: column;
@@ -49,11 +49,9 @@ header {
   box-shadow: 2px 5px 9px rgba(0, 0, 0, 0.3);
 }
 
-
 #input-text {
   background: transparent;
   border: none;
-
   border-radius: 20px;
   padding: 5px 10px;
   width: 250px;
@@ -131,4 +129,13 @@ li {
   padding: 5px;
   font-size: 1.1rem;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 480px) {
+  .task-container {
+    width: 350px;
+  }
+  #input-text {
+    width: 200px;
+  }
 }
